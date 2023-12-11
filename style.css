@@ -1,0 +1,257 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+   
+  header {
+    background-color: darkcyan;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 500;
+    /* scale: 2; */
+  }
+   
+  nav {
+    background-color: #689092;
+    text-align: center;
+    width: 300px;
+    height: 30px;
+    margin: auto;
+    border-radius: 0 0 10px 10px;
+    position: fixed;
+    top: 156px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 400;
+  }
+  a:hover{
+    text-decoration: underline;
+  }
+  #nav-ul {
+    margin: 0;
+    padding: 0;
+  }
+  #nav-ul li {
+    display: inline;
+    font-family: 'Montserrat Alternates', sans-serif;
+    padding: 0 5px
+  }
+   
+  #about {
+    margin-top: 200px;
+  }
+   
+  a {
+    text-decoration: none;
+    color: #F5F5F5;
+  }
+   
+  h1 {
+    font-family: 'Bodoni Moda', serif;
+    font-weight: bold;
+    font-size: 90px;
+  }
+   
+  h2 {
+    font-family: 'Bodoni Moda', serif;
+    font-weight: bold;
+  }
+   
+  .hr {
+    text-align: center;
+    position: relative;
+   
+  }
+   
+  .one::before, .one::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: calc(50% - 130px);
+    height: 2px;
+    background-color: black;
+    transform: translateY(-50%);
+  }
+   
+  .two::before, .two::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: calc(50% - 100px);
+    height: 2px;
+    background-color: black;
+    transform: translateY(-50%);
+  }
+   
+  .three::before, .three::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: calc(50% - 130px);
+    height: 2px;
+    background-color: black;
+    transform: translateY(-50%);
+  }
+   
+   
+  .hr::before {
+    left: 40px;
+  }
+  .hr::after {
+    right: 40px; 
+  }
+   
+  .nolan {
+    padding-left: 20px;
+    text-align: left;
+  }
+  .vaughan {
+    text-align: right;
+    padding-right: 20px;
+  }
+   
+  .nolan::after, .vaughan::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: calc(100% - 235px);
+    height: 2px;
+    background-color: black;
+    transform: translateY(-50%);
+  }
+  .vaughan::before {
+    left: 40px;
+    /* transform: translateY(-8780%); */
+  }
+  .nolan::after {
+    right: 40px; 
+    /* transform: translateY(-215px); */
+  }
+   
+  /* .hr::before, .hr::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 1px;
+    background-color: black;
+  }
+   
+  .hr::before {
+      left: -5px;
+  }
+   
+  .hr::after {
+      right: -5px;
+  } */
+   
+  p {
+    font-family: 'Montserrat Alternates', sans-serif;
+    padding: 10px;
+  }
+   
+  #filler {
+    height: 100px;
+  }
+  #contact-form {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: #B7DFE1;
+    text-align: center;
+  }
+   
+  input, textarea {
+    width: 90%;
+    max-width: 350px;
+    border-width: 0;
+    border-radius: 5px;
+  }
+  label{
+    font-family: 'Bodoni Moda', serif;
+    font-weight: bold;
+  }
+  #submit {
+    max-width: 200px;
+    background-color: #B7DFE1;
+    font-family: 'Bodoni Moda', serif;
+    color: white;
+    font-weight: bold;
+  }
+   
+  footer {
+    background-color: darkcyan;
+    padding: 5px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+   
+  #logo-bottom {
+    display: inline;
+  }
+   
+  #info {
+    display: inline-block;
+    list-style-type: none;
+    transform: translate(-10%, 22%);
+    font-family: 'Montserrat Alternates', sans-serif;
+  }
+  #info b {
+    font-family: 'Bodoni Moda', serif;
+  }
+   
+  /* #services {
+   
+  } */
+   
+  #button{
+    position: fixed;
+    right: 5px;
+    bottom: 100px;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    background-color: #B7DFE1;
+    color: white;
+    text-align: center;
+   
+  }
+  i {
+    font-size: 20px;
+    /* transform: translateY(90%); */
+    margin-top: 10px;
+    position: fixed;
+    right: 20px;
+    bottom: 111px;
+  }
+   
+  #button:hover {
+    background-color: #B7DFE1;
+  }
+  #button:hover i {
+    color: #8A3343;
+  }
+   
+  #submit:hover{
+    background-color: #B7DFE1;
+    color: #8A3343;
+  }
+   
+  img {
+    width: 100%;
+    margin: 20px 0;
+  }
+   
+  #about-target{
+    transform: translateY(-200px);
+  }
+  #services-target{
+    transform: translateY(-210px);
+  }
+  #contact-target{
+    transform: translateY(-210px);
+  }
